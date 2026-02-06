@@ -3,7 +3,13 @@
 
 #include <stddef.h>
 
-/* Doubly linked list node structure for insertion_sort_list */
+/**
+ * struct listint_s - Doubly linked list node
+ *
+ * @n: Integer stored in the node
+ * @prev: Pointer to the previous element
+ * @next: Pointer to the next element
+ */
 typedef struct listint_s
 {
 	int n;
