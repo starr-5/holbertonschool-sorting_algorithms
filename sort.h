@@ -6,9 +6,9 @@
 /* Doubly linked list node structure for insertion_sort_list */
 typedef struct listint_s
 {
-    int n;
-    struct listint_s *prev;
-    struct listint_s *next;
+	int n;
+	struct listint_s *prev;
+	struct listint_s *next;
 } listint_t;
 
 /* Function prototypes */
